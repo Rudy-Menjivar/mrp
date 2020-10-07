@@ -15,8 +15,18 @@
     <!-- Applied Navbar (sec. 1) -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     
-      <!-- Added name as a heading within Nav -->
-    <span class="navbar-brand mb-0 h1">Rudy Menjivar</span>
+    <!-- Added name as a heading within Nav & added header -->
+    <header><span class="navbar-brand mb-0 h1">Rudy Menjivar</span></header>
+
+      <!-- Added nav toggler class -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Added Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <ul class="navbar-nav ml-auto">
       <!-- Added links with class to justify to the right -->
       <ul class="nav justify-content-end">
       <li class="nav-item">
@@ -29,8 +39,10 @@
         <a class="nav-link" href="#">About</a>
       </li>
       </ul>
+      
+      </div>
     </nav>
-
+      
   </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
