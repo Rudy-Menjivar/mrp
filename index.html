@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Mobile Responsive Portfolio</title>
 </head>
@@ -25,9 +25,8 @@
 
       <!-- Added Collapsible button -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- Linked navigation pages -->
         <ul class="navbar-nav ml-auto">
-
-          <!-- Linked navigation pages -->
           <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
           </li>
@@ -45,21 +44,26 @@
     </nav>
 
    <!-- Added top padding of 24px -->
-   <div class="container pt-4"></div>
-    <div class="row">
-      <!-- Set col w. on xs to take up entire screen, 75% on sm+ -->
-      <div class="col-12 col-sm-9">
-        <div class="card">
-          <div class="card-body">
-            <h1 class="card-title">About Me</h1>
-            <img src="https://avatars0.githubusercontent.com/u/25418066?s=400&u=0678ccafa62d3c90dc4098d799ee33369f0fa50d&v=4" alt="Picture of Me" width="33%">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nobis quasi incidunt ab repellendus placeat veniam enim dolore. Eligendi explicabo libero fugit nihil provident ex accusantium quisquam consequuntur porro facere?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illum nam laboriosam nisi, id impedit eligendi adipisci autem aspernatur rerum voluptate officiis dolor laudantium dolores a magnam porro veniam incidunt?</p>
+   <div class="container pt-4">
+      <div class="row">
+        <!-- Set col w. on xs to take up entire screen, 75% on sm+ -->
+        <div class="col-12 col-sm-9">
+          <div class="card">
+            <div class="card-body">
+              <h1 class="card-title">About Me</h1>
+                <div class="clearfix">
+                  <span class="float-left">
+                    <img src="https://avatars0.githubusercontent.com/u/25418066?s=400&u=0678ccafa62d3c90dc4098d799ee33369f0fa50d&v=4" alt="Picture of Me" class="card-body" width="60%">
+                  </span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nobis quasi incidunt ab repellendus placeat veniam enim dolore. Eligendi explicabo libero fugit nihil provident ex accusantium quisquam consequuntur porro facere?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illum nam laboriosam nisi, id impedit eligendi adipisci autem aspernatur rerum voluptate officiis dolor laudantium dolores a magnam porro veniam incidunt?</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-   </div>    
+    
   </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
