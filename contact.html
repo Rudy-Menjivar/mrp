@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/styles.css">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/styles.css">
+  <title>Contact</title>
 </head>
 
 <body>
-  <!-- Added entire page under a container -->
-  <div class="container">
-    <!-- Applied Navbar (sec. 1) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <!-- Added name as a heading within Nav -->
-    <header><span class="navbar-brand mb-0 h1">Rudy Menjivar</span> <!-- Added header -->
-    </header>
+  <!-- Applied Navbar (sec. 1) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <!-- Added name as a heading within Nav & added header -->
+    <header><span class="navbar-brand mb-0 pl-4 h1">Rudy Menjivar</span></header>
+    <!-- Added nav toggler class -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+      <!-- Added Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!-- Linked navigation pages -->
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+    </ul>
+  </nav>
 
-      <!-- Added nav toggler class -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <!-- Added Collapsible button -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-  
-        <!-- Removed justify to the right class
-        <ul class="nav justify-content-end"> -->  
-        <li class="nav-item active">
-          <a class="nav-link active" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Form-group w form-control (BS sec.1) -->
-    <!-- Margin & Padding: top&right set to 24px -->
-    <div class="form-group mt-4 mr-4 pt-4 pr-4">
+  <div class="container p-4">
+    <div class="form-group mt-4 mr-4 pt-4 pr-4">  <!-- Margin & Padding: top&right set to 24px -->
       <!-- Featured Card text-left (BS)-->
       <div class="card gradient text-left">
         <div class="radial card-header bg-primary text-white">
@@ -62,7 +54,7 @@
             <label for="formGroupMessage">Message</label>
             <textarea class="form-control" class="form-control" id="formGroupMessage" placeholder="Message" rows="6"></textarea>
           </div>
-          <button type="submit" class="gradient btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
     </div>
@@ -73,14 +65,14 @@
       <a class="navbar-brand" href="https://github.com/Rudy-Menjivar" >
       <img src="assets/GitHub-Mark-32px.png" alt="github logo">
       </a>
-        <a class="navbar-brand" href="https://www.linkedin.com/in/rudy-menjivar-">
-        <img src="assets/LI-In-Bug.png" alt="linkedin logo">
-        </a>
+      <a class="navbar-brand" href="https://www.linkedin.com/in/rudy-menjivar-">
+      <img src="assets/LI-In-Bug.png" alt="linkedin logo">
+      </a>
   </footer>
     
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
 </body>
 
 </html>
