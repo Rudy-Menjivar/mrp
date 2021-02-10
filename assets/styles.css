@@ -61,6 +61,28 @@
     -webkit-transition: .3s ease;
     transition: .3s ease;
   }
+
+  .fade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #075068;
+    overflow: hidden;
+    transition: .9s ease;
+  }
+
+  .col:hover .fade {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
   
   .col:hover .overlay {
     -webkit-transform: scale(1);
@@ -70,19 +92,20 @@
   }
 
   .left {
-    top: 75%;
+    top: 80%;
     left: 23%;
   }
 
   .right {
-    top: 75%;
+    top: 80%;
     left: 58%;
   }
   
   .text {
     color: white;
-    font-size: 20px;
-    position: absolute;
+    font-size: 18px;
+    position: relative;
+    padding: 1rem;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
