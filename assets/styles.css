@@ -24,7 +24,8 @@
 }
 
 .container {
-    max-width: 900px;
+  max-width: 900px;
+  padding-bottom: 500px;
 }
 
 .img
@@ -118,9 +119,8 @@ body {
 
     /* SVG fallback for IE 9 (could be data URI, or could use filter) */
     background-image: url(../assets/danist-gOzUn-apU9M-unsplash.jpg);
-    height: 100%;
     margin: 0;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
   }
